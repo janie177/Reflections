@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\entities">
+      <UniqueIdentifier>{a949f3ec-10e8-4362-a1c5-f5bf1ebec8e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entities">
+      <UniqueIdentifier>{5fc9257d-3d94-448b-bd92-91bbe4c85f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\world">
+      <UniqueIdentifier>{3cb618ba-2268-40b6-a68e-9a7fcae478e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\textures">
+      <UniqueIdentifier>{9820816d-7496-40c4-862c-4cf9d467f92c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\textures">
+      <UniqueIdentifier>{21ea5b79-3e7a-4901-a80f-49d69a6d83c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{d161f99d-848b-44b9-8ca7-7b56ecc4ef85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{f6355f67-dc79-4c85-8a52-a264a614479a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\world">
+      <UniqueIdentifier>{671dd9c2-7806-4d4c-a206-f0f58ac8cdab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\file">
+      <UniqueIdentifier>{df3a8b1d-d7ff-46b9-a3d0-4eb330d4c30b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\file">
+      <UniqueIdentifier>{7c0480a3-7a99-4708-82db-98333c3fcb08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\entities\types">
+      <UniqueIdentifier>{2ee8beeb-6506-4e05-aaf6-b5151e4d071a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\entities\types">
+      <UniqueIdentifier>{a143b012-dd8b-4085-8c0d-22f5e4c8e57b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\levels">
+      <UniqueIdentifier>{9b97424b-89d1-4837-a36b-e506ba06c8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\levels">
+      <UniqueIdentifier>{7f1a1a03-842b-4be7-959c-e6ab3e684bdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\levels\impl">
+      <UniqueIdentifier>{a0edeb05-a453-4c0d-a88e-867f03681e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\levels\impl">
+      <UniqueIdentifier>{334eec07-90e5-4316-b04c-b171c5e1ce80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\input">
+      <UniqueIdentifier>{d552bef7-838b-4365-88ca-f9cb92ffeb5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\menu">
+      <UniqueIdentifier>{6f21e02b-853a-4519-8a94-0cee02afae38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\menu">
+      <UniqueIdentifier>{470d83b9-2c5f-4644-aeea-ce5afcfe36a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\input">
+      <UniqueIdentifier>{07ff1e8a-6e77-4e04-b70b-74d85ea0009e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\text">
+      <UniqueIdentifier>{6165bb5b-35e3-425b-9481-ded3baf959bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\text">
+      <UniqueIdentifier>{0945d693-bca6-4dd4-bbf4-ce2ec8496a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{77d74a0c-7819-43fa-8fa3-30cdd2bb7039}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{1ecb3b3f-80a5-4c54-b352-27c02b225415}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\particles">
+      <UniqueIdentifier>{ad5192a1-5159-4f2b-a833-3409c8ff82b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\particles\types">
+      <UniqueIdentifier>{b9b95af5-b313-4fc0-b51d-63d8a822a177}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\particles">
+      <UniqueIdentifier>{49bd0805-1b8d-4515-a1ac-adde4c476239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\particles\types">
+      <UniqueIdentifier>{59e3b97e-efc6-4247-b9da-08586a69ceeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\tasks">
+      <UniqueIdentifier>{8eb817e9-e68f-490a-8205-246375412303}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\tasks">
+      <UniqueIdentifier>{498169f7-7ebd-4aec-a906-84f82abd61c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sound">
+      <UniqueIdentifier>{468f1858-c36d-4f9d-b389-7835604328ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Reflections.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Source Files\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Location.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="TileType.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTimer.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="World.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoader.cpp">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="Chunk.cpp">
+      <Filter>Source Files\world</Filter>
+    </ClCompile>
+    <ClCompile Include="FileReader.cpp">
+      <Filter>Source Files\file</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2d.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="TexturedEntity.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\entities\types</Filter>
+    </ClCompile>
+    <ClCompile Include="TextEntity.cpp">
+      <Filter>Source Files\entities\types</Filter>
+    </ClCompile>
+    <ClCompile Include="LivingEntity.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files\entities\types</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Source Files\levels</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelManager.cpp">
+      <Filter>Source Files\levels</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial.cpp">
+      <Filter>Source Files\levels\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="InputManager.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayingInputHandler.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseInputHandler.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuInputHandler.cpp">
+      <Filter>Source Files\input</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>Source Files\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Textured.cpp">
+      <Filter>Source Files\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureData.cpp">
+      <Filter>Source Files\textures</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source Files\text</Filter>
+    </ClCompile>
+    <ClCompile Include="HitBox.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="HealthElement.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUIElement.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="WorldsElement.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Random.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleEffect.cpp">
+      <Filter>Source Files\particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleManager.cpp">
+      <Filter>Source Files\particles</Filter>
+    </ClCompile>
+    <ClCompile Include="AerosolEffect.cpp">
+      <Filter>Source Files\particles\types</Filter>
+    </ClCompile>
+    <ClCompile Include="FountainEffect.cpp">
+      <Filter>Source Files\particles\types</Filter>
+    </ClCompile>
+    <ClCompile Include="TaskManager.cpp">
+      <Filter>Source Files\tasks</Filter>
+    </ClCompile>
+    <ClCompile Include="RainEffect.cpp">
+      <Filter>Source Files\particles\types</Filter>
+    </ClCompile>
+    <ClCompile Include="RisingEffect.cpp">
+      <Filter>Source Files\particles\types</Filter>
+    </ClCompile>
+    <ClCompile Include="DripEffect.cpp">
+      <Filter>Source Files\particles\types</Filter>
+    </ClCompile>
+    <ClCompile Include="CloudEffect.cpp">
+      <Filter>Source Files\particles\types</Filter>
+    </ClCompile>
+    <ClCompile Include="Cooldown.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Snail.cpp">
+      <Filter>Source Files\entities\types</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Source Files\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Level1.cpp">
+      <Filter>Source Files\levels\impl</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Source Files\entities</Filter>
+    </ClCompile>
+    <ClCompile Include="PlantSpit.cpp">
+      <Filter>Source Files\entities\types</Filter>
+    </ClCompile>
+    <ClCompile Include="EvilPlant.cpp">
+      <Filter>Source Files\entities\types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TexturedEntity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="World.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Location.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2d.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="TileType.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTimer.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Chunk.h">
+      <Filter>Header Files\world</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoader.h">
+      <Filter>Header Files\file</Filter>
+    </ClInclude>
+    <ClInclude Include="FileReader.h">
+      <Filter>Header Files\file</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\entities\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Interactable.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="LivingEntity.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="TextEntity.h">
+      <Filter>Header Files\entities\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files\entities\types</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Header Files\levels</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelManager.h">
+      <Filter>Header Files\levels</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial.h">
+      <Filter>Header Files\levels\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHandler.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayingInputHandler.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuInputHandler.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseInputHandler.h">
+      <Filter>Header Files\input</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureData.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Textured.h">
+      <Filter>Header Files\textures</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Header Files\text</Filter>
+    </ClInclude>
+    <ClInclude Include="HitBox.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="GUIElement.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="HealthElement.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="WorldsElement.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleEffect.h">
+      <Filter>Header Files\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleManager.h">
+      <Filter>Header Files\particles</Filter>
+    </ClInclude>
+    <ClInclude Include="Range.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Random.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="AerosolEffect.h">
+      <Filter>Header Files\particles\types</Filter>
+    </ClInclude>
+    <ClInclude Include="FountainEffect.h">
+      <Filter>Header Files\particles\types</Filter>
+    </ClInclude>
+    <ClInclude Include="RainEffect.h">
+      <Filter>Header Files\particles\types</Filter>
+    </ClInclude>
+    <ClInclude Include="TaskManager.h">
+      <Filter>Header Files\tasks</Filter>
+    </ClInclude>
+    <ClInclude Include="Cooldown.h">
+      <Filter>Header Files\util</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>Header Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="CloudEffect.h">
+      <Filter>Header Files\particles\types</Filter>
+    </ClInclude>
+    <ClInclude Include="DripEffect.h">
+      <Filter>Header Files\particles\types</Filter>
+    </ClInclude>
+    <ClInclude Include="RisingEffect.h">
+      <Filter>Header Files\particles\types</Filter>
+    </ClInclude>
+    <ClInclude Include="Snail.h">
+      <Filter>Header Files\entities\types</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Header Files\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Header Files\sound</Filter>
+    </ClInclude>
+    <ClInclude Include="Level1.h">
+      <Filter>Header Files\levels\impl</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Header Files\entities</Filter>
+    </ClInclude>
+    <ClInclude Include="PlantSpit.h">
+      <Filter>Header Files\entities\types</Filter>
+    </ClInclude>
+    <ClInclude Include="EvilPlant.h">
+      <Filter>Header Files\entities\types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Reflections.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="favicon.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
