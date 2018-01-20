@@ -8,5 +8,4 @@ You have to solve levels by navigating between worlds and finding your way to th
 
 Please note:
 This is my first time writing a large project in C++, and as such this contains multiple design flaws.
-If you are reading this and thinking of using any of the code, feel free to do so. Just keep in mind
-that some parts of the project design are questionable and prone to error (I only found out afterward).
+If you are reading this and thinking of using any of the code, feel free to do so. Just keep in mind that some parts of the project design are questionable and prone to error (I only found out afterward).
