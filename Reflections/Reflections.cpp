@@ -74,11 +74,7 @@
 //Include SDL here because it needs to init and override the main method.
 #include <SDL.h>
 #include <iostream>
-#include "Renderer.h"
 #include "Game.h"
-#include "TextureManager.h"
-#include "LevelManager.h"
-#include "TileType.h"
 #include "GameManager.h"
 
 using namespace reflections;
